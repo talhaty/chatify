@@ -1,0 +1,229 @@
+body{
+    overflow-x: hidden;
+}
+
+
+
+#authLogo{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    width : 100%;
+    margin-top:3%;
+    align-items: center;
+}
+
+#authLogo img{
+    width:15%;
+}
+
+#authLogo img:hover{
+    cursor:pointer;
+}
+
+#gotologin:hover{
+    cursor: pointer;
+}
+
+#loginContainer{
+    margin-top: 13%;
+    position:absolute;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginContainer h1{
+    color:white;
+    font-size: 3rem;
+    font-weight:400;
+}
+
+#loginContainer p{
+    color:white;
+    font-size:1.2rem;
+    font-weight:300;
+    width:25%;
+    text-align: center;
+    line-height: 130%;
+    margin-top:-1%;
+}
+
+#loginForm{
+    position:absolute;
+    width:100%;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm input{
+    width:20%;
+    padding:0.8%;
+    background-color: rgba(0,0,0,0.5);
+    border:none;
+}
+
+
+#loginForm p{
+    color:#6fccdd;
+    text-decoration: underline;
+    font-weight: 400;
+
+}
+
+
+#loginForm button{
+    width:10%;
+    padding:0.5%;
+    color:white;
+    background-color: #6fccdd;
+    border:none;
+    font-size:1rem;
+    font-weight: 500;
+    margin-top:1%;
+    border:none;
+}
+
+#loginForm button:hover{
+    background-color: rgba(111, 204, 221 , 0.7);
+    cursor:pointer;
+}
+
+#loginForm p:nth-of-type(2){
+    text-decoration: none;
+    display:inline;
+    margin-top:2%
+}
+
+#signUpLink a{
+    display:inline;
+    font-weight: 500;
+    color:#6fccdd;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width : 500px) {
+
+        #authLogo{
+            margin-top:15%;
+        }
+        #authLogo img{
+            width:50%;
+        }
+
+        #loginContainer h1{
+        font-size : 2rem;
+        }
+
+        #loginContainer{
+            margin-top:45%;
+        }
+
+        #loginContainer p{
+            font-size:0.8rem;
+            width:100%;
+        }
+
+        #loginForm{
+            margin-top:100%;
+        }
+
+        #loginForm input{
+            width:80%;
+            padding:3%;
+        }
+
+        #loginForm p{
+            font-size:0.8rem;
+        }
+
+        #loginForm button{
+            width:60%;
+            padding:3%;
+            margin-top:5%;
+        }
+
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width : 1000px) {
+
+    #authLogor{
+        margin-top:15%;
+    }
+    #authLogo img{
+        width:50%;
+    }
+
+    #loginContainer h1{
+    font-size : 2rem;
+    }
+
+    #loginContainer{
+        margin-top:45%;
+    }
+
+    #loginContainer p{
+        font-size:0.8rem;
+        width:100%;
+    }
+
+    #loginForm{
+        margin-top:70%;
+    }
+
+    #loginForm input{
+        width:80%;
+        padding:3%;
+    }
+
+    #loginForm p{
+        font-size:0.8rem;
+    }
+
+    #loginForm button{
+        width:60%;
+        padding:3%;
+        margin-top:5%;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width : 1200px) {
+
+    #loginContainer h1{
+        font-size:2rem;
+    }
+
+    #loginContainer p{
+        font-size:1rem;
+    }
+    #loginForm{
+        margin-top:29%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width : 1600px) {
+
+    #loginContainer h1{
+        font-size:2rem;
+    }
+
+    #loginContainer p{
+        font-size:1rem;
+    }
+    #loginForm{
+        margin-top:25%;
+    }
+
+}
+

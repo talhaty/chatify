@@ -1,0 +1,180 @@
+#packages{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5%;
+}
+
+#subLogo{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    width : 100%;
+    margin-top:3%;
+    align-items: center;
+}
+
+#subLogo img{
+    width:15%;
+}
+
+#subLogo img:hover{
+    cursor:pointer;
+}
+
+#packages #basic{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5%;
+}
+
+#basic h1{
+     color:aqua;
+     text-decoration: underline;
+}
+
+#basic p{
+    color:white;
+}
+
+#basic button{
+    padding:3%;
+    width:100%;
+    background-color: rgba(3, 114, 77, 0.582);
+    color:white;
+    font-size:1rem;
+    font-weight:600;
+    border:none;
+    margin-top:5%;
+}
+
+#basic button:hover{
+    cursor:pointer;
+    background-color:rgba(3, 122, 83, 0.753);
+}
+
+#note{
+    width:80%;
+    margin-left:5%;
+    margin-bottom: 5%;
+}
+
+#note h1{
+    color:rgb(3, 204, 171);
+}
+
+#note p{
+    color:rgb(139, 139, 139);
+    text-align: justify;
+}
+
+#subBar{
+    width:50%;
+    height:1px;
+    margin-top:5%;
+    background-color: rgba(122, 122, 122, 0.492);
+}
+
+
+@media screen and (min-width: 200px) and (max-width : 700px) {
+
+    #subLogo img{
+        width:50%;
+    }
+
+    #subLogo{
+        margin-top:10%;
+    }
+
+    #packages{
+        width:100%;
+    }
+
+    #packages #basic{
+        width:90%;
+    }
+
+    #basic button{
+        width:50%;
+    }
+
+    #basic h1{
+        font-size:1.5rem;
+    }
+
+    #basic p{
+        font-size:0.8rem;
+        text-align: center;
+    }
+
+    #note{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        margin-left:10%;
+    }
+
+    #note p{
+        text-align: justify;
+        width:100%;
+
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width : 1050px) {
+
+    #subLogo img{
+        width:35%;
+    }
+
+    #subLogo{
+        margin-top:10%;
+    }
+
+    #packages{
+        width:100%;
+    }
+
+    #packages #basic{
+        width:90%;
+    }
+
+    #basic button{
+        width:30%;
+    }
+
+    #basic h1{
+        font-size:1.8rem;
+    }
+
+    #basic p{
+        font-size:1rem;
+        text-align: center;
+    }
+
+    #note{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        margin-left:10%;
+    }
+
+    #note p{
+        text-align: justify;
+        width:100%;
+
+    }
+
+}
